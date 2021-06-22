@@ -1,0 +1,51 @@
+.nav-list{
+  font-size: 0;
+}
+
+.nav-list-item{
+  display: inline-block;
+  font-size: 16px;
+  background: yellowgreen;
+  border: 1px solid;
+  position: relative;
+  min-width: 100px;
+  max-width: 100px;
+  
+}
+
+.nav-list-item:hover{
+background: green;
+}
+
+.sub-nav-list{
+  position: absolute;
+  display: none;
+  min-width: 100px;
+  
+  right: 0;
+}
+
+.nav-list-item:hover > .sub-nav-list{
+  display: inline-block;
+  
+}
+.sub-menu{
+  bottom: 38px;
+  left: 102px;
+  
+}
+.link{
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+}
+.section-text{
+  border: 2px solid;
+  margin-top: 20px;
+  
+}
+
+
+
+
